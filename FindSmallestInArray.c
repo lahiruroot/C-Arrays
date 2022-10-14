@@ -3,14 +3,14 @@
 // C function to find maximum in arr[] of size n
 int smallest(int arr[], int n)
 {
-    int i;
+    
     
     // Initialize maximum element
     int min = arr[0];
  
     // Traverse array elements from second and
     // compare every element with current max 
-    for (i = 1; i < n; i++)
+    for (int i = 1; i < n; i++)
         if (arr[i] < min)
             min = arr[i];
  
